@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Toledo the Glass City</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+        }
+        .header {
+            background-color: blue;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+        .section {
+            margin: 20px 0;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            width: 60%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .map { background-color: #f9d5a7; }
+        .dining { background-color: #ffb3f3; }
+        .accommodations { background-color: #f5ff9d; }
+        .emergency { background-color: #ff9db3; }
+        .transportation { background-color: #d7ff9d; }
+        .reviews { background-color: #ffb3b3; }
+        .attractions { background-color: #c39dff; }
+        .translator { background-color: #c1ff9d; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        Welcome to Toledo the Glass City
+    </div>
+    <div class="container">
+        <div class="section map">
+            <h2>Map</h2>
+            <p>Interactive map of Toledo with points of interest.</p>
+        </div>
+        <div class="section dining">
+            <h2>Dining</h2>
+            <p>Explore the best places to eat in Toledo.</p>
+        </div>
+        <div class="section accommodations">
+            <h2>Accommodations</h2>
+            <p>Find the best hotels and places to stay.</p>
+        </div>
+        <div class="section emergency">
+            <h2>Emergency Services</h2>
+            <p>Information on emergency services in Toledo.</p>
+        </div>
+        <div class="section transportation">
+            <h2>Transportation</h2>
+            <p>Details on transportation options in Toledo.</p>
+        </div>
+        <div class="section reviews">
+            <h2>User Reviews</h2>
+            <p>Read reviews from other visitors.</p>
+        </div>
+        <div class="section attractions">
+            <h2>Attractions</h2>
+            <p>Discover the top attractions in Toledo.</p>
+        </div>
+        <div class="section translator">
+            <h2>Microphone with Voice-activated Translator</h2>
+            <p>Use our voice-activated translator for easy communication.</p>
+        </div>
+    </div>
+</body>
+</html>
